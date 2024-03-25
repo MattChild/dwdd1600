@@ -1,0 +1,113 @@
+body{
+   font-family: 'Nunito Sans', sans-serif; 
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+}
+
+/*Header Stuff Here*/
+header {
+    background-color: #dcdcdc;
+    padding: 2rem 2vw;
+}
+header h1 {
+    margin: 0;
+    color: #4C71F5;
+}
+header p {
+    margin: 0;
+    color: #4C71F5;
+    letter-spacing: .5px;
+}
+
+/* nav stuff goes here */
+nav {
+    background-color: #8EEBFB;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;
+}
+nav a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #4C71F5;
+    font-weight: 700;
+    display: block;
+    padding: .85rem 2rem;
+}
+nav li.active a {
+    background-color:#4C71F5;
+    color: #8EEBFB;
+}
+nav a:hover {
+    color: white;
+}
+
+/*stuff for the main */
+main {
+    padding: 1rem 2vw;
+}
+main h1 {
+    color: #87C4FA;
+}
+
+main h2 {
+    color: #228B22;
+    margin-bottom: .2rem;
+}
+
+main p {
+    color: #228B22;
+    margin: 0 0 .3rem 0;
+}
+
+main ol {
+    padding: .5rem 3vw;
+    background-color: #efefef;
+}
+
+main dl dt {
+    color: #228B22;
+    font-weight: 700;
+}
+main dl dd {
+    color: #223B22;
+    font-size: .9rem;
+}
+main ul {
+    list-style-type: square;
+}
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+main address {
+    font-style: normal;
+    background-color: #C5E8E2;
+    padding: .5rem;
+    width: 12.5rem;
+    border: 2px solid #4C71F5;
+    border-radius: .5rem;
+}
+
+main a {
+    color: #4C71F5;
+}
+main a:hover {
+    color: rgb (239,2,24);
+}
+/*Footer Stuff Here */
+footer {
+        background-color: #61E3FA;
+        text-align: center;
+        color: #4C71F5;
+        padding: 1rem 0;
+        font-size: .8rem;
+    }
+footer a {
+        color: #4C71F5;
+    }
