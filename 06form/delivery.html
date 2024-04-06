@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta name="description" content="Personal graphic design pieces for others to look at"> 
+    <meta charset="UTF-8">
+    <title>Matt Child's Portfolio</title>
+    <meta name="author" content="Matt Child">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="preconnect" href="https//fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@300;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<!--start the page header-->
+<header>
+    <h1>My Portfolio</h1>
+    <p>Everything you Need to Know About Me</p>
+</header>
+
+<!--start the page navigation-->
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index2.html">Pieces</a></li>
+        <li class="active"><a href="delivery.html">Request a Gallery Piece</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+    </ul>
+</nav>
+
+<!--start the page main-->
+<main>
+    <h1>Request A Gallery Piece</h1>
+    <form method="get" class="myForm" action="thanks.html">
+    <fieldset>
+    <legend>Customer Information</legend>
+    <label>First Name*<input type="text" name="fname" required></label>
+    <label>Last Name*<input type="text" name="lname" required></label>   
+    <label>Cell Number*<input type="tel" name="phone" required placeholder="987-555-1234"></label> 
+    <label>Email Address*<input type="email" name="email" required></label>
+      </fieldset>  
+        
+    <fieldset>
+    <legend>States for Shipping</legend>
+       <label><input type="radio" name="state" value="Utah">Utah (same day)</label>
+       <label><input type="radio" name="state" value="California">California (one day)</label>
+       <label><input type="radio" name="state" value="Florida">Florida (three day)</label>
+    </fieldset>
+        
+    <fieldset>
+        <legend>Delivery Options</legend>
+        <label><input type="checkbox" name="porch" value="chosen"> Front Porch</label>
+        <label><input type="checkbox" name="deck" value="chosen">Back Deck</label>
+        <label><input type="checkbox" name="driveway" value="chosen">Driveway</label>
+        <label><input type="checkbox" name="garage" value="chosen"> Inside the Garage</label>
+        
+        <label>Preferred Delivery Time
+        <select name="time">
+        <option value="none"> Please Select</option>
+        <option value="morning">Between 7:00am and 11:00am</option>
+        <option value="noon">Between 11:00am and 3:00pm</option>
+        <option value="evening">Between 3:00pm and 7:00pm</option> 
+        </select>
+        </label>
+     </fieldset>
+        
+        <label>Comments
+            <textarea name="comments"></textarea>
+        </label>
+    <input type="submit" value="Send Gallery Request">
+    </form>
+    
+  
+</main>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+<!--Start of the page footer-->
+<footer>
+<p>&copy;2021 &bull; Matt Child  &bull; <a href="mailto:abc@gmail.com">Email Us</a> </p>
+</footer>
+</body>
+</html>
+    
