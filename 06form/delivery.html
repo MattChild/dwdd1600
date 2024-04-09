@@ -23,14 +23,14 @@
     <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="index2.html">Pieces</a></li>
-        <li class="active"><a href="delivery.html">Request a Gallery Piece</a></li>
+        <li class="active"><a href="delivery.html">Request Work</a></li>
         <li><a href="gallery.html">Gallery</a></li>
     </ul>
 </nav>
 
 <!--start the page main-->
 <main>
-    <h1>Request A Gallery Piece</h1>
+    <h1>Request Work</h1>
     <form method="get" class="myForm" action="thanks.html">
     <fieldset>
     <legend>Customer Information</legend>
@@ -48,18 +48,18 @@
     </fieldset>
         
     <fieldset>
-        <legend>Delivery Options</legend>
-        <label><input type="checkbox" name="door" value="chosen"> Your Door</label>
-        <label><input type="checkbox" name="neighbor" value="chosen">Neigbor's House</label>
-        <label><input type="checkbox" name="driveway" value="chosen">Lawn</label>
-        <label><input type="checkbox" name="garage" value="chosen">Backyard</label>
+        <legend>What type of Work</legend>
+        <label><input type="checkbox" name="logo" value="chosen">Logo</label>
+        <label><input type="checkbox" name="painting" value="chosen"> Original Painting</label>
+        <label><input type="checkbox" name="print" value="chosen">Print</label>
+        <label><input type="checkbox" name="typography" value="chosen">Custom Typography</label>
         
-        <label>Preferred Delivery Time
+        <label>Pick Up
         <select name="time">
         <option value="none"> Please Select</option>
-        <option value="morning">Between 1:00am and 10:00am</option>
-        <option value="noon">Between 11:00am and 5:00pm</option>
-        <option value="evening">Between 6:00pm and 12:00am</option> 
+        <option value="mail">Mail</option>
+        <option value="delivery">Direct Delivery</option>
+        <option value="email">Email</option> 
         </select>
         </label>
      </fieldset>
