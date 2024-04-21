@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta name="description" content="Personal graphic design pieces for others to look at"> 
+    <meta charset="UTF-8">
+    <title>Matt Child's Portfolio</title>
+    <meta name="author" content="Matt Child">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="preconnect" href="https//fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@300;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+<!--start the page header-->
+<header>
+    <img src="images/logo.png" alt="site logo" width="150" height="60">
+    <div>
+    <h1>My Portfolio</h1>
+    <p>Everything you Need to Know About Me</p>
+    </div>
+</header>
+
+<!--start the page navigation-->
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index2.html">Pieces</a></li>
+        <li class="active"><a href="delivery.html">Request Work</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="pricing.html">Prices</a></li>
+        <li><a href="contact.html">Come See Me</a></li>
+    </ul>
+</nav>
+
+<!--start the page main-->
+<main>
+    <h1>Request Work</h1>
+    <form method="get" class="myForm" action="thanks.html">
+    <fieldset>
+    <legend>Customer Information</legend>
+    <label>First Name*<input type="text" name="fname" required></label>
+    <label>Last Name*<input type="text" name="lname" required></label>   
+    <label>Cell Number*<input type="tel" name="phone" required placeholder="987-555-1234"></label> 
+    <label>Email Address*<input type="email" name="email" required></label>
+      </fieldset>  
+        
+    <fieldset>
+    <legend>States for Shipping</legend>
+       <label><input type="radio" name="state" value="Utah">Utah (same day)</label>
+       <label><input type="radio" name="state" value="California">California (one day)</label>
+       <label><input type="radio" name="state" value="Florida">Florida (three day)</label>
+    </fieldset>
+        
+    <fieldset>
+        <legend>What type of Work</legend>
+        <label><input type="checkbox" name="logo" value="chosen">Logo</label>
+        <label><input type="checkbox" name="painting" value="chosen"> Original Painting</label>
+        <label><input type="checkbox" name="print" value="chosen">Print</label>
+        <label><input type="checkbox" name="typography" value="chosen">Custom Typography</label>
+        
+        <label>Pick Up Methods
+        <select name="time">
+        <option value="none"> Please Select</option>
+        <option value="mail">Mail</option>
+        <option value="delivery">Direct Delivery</option>
+        <option value="email">Email</option> 
+        </select>
+        </label>
+     </fieldset>
+        
+        <label>Additional Requests
+            <textarea name="comments"></textarea>
+        </label>
+    <input type="submit" value="Send Gallery Request">
+    </form>
+    
+  
+</main>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+<!--Start of the page footer-->
+<footer>
+<p>&copy;2021 &bull; Matt Child  &bull; <a href="mailto:abc@gmail.com">Email Us</a> </p>
+</footer>
+</body>
+</html>
+    
